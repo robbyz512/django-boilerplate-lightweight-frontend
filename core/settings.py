@@ -133,7 +133,7 @@ STATIC_ROOT = BASE_DIR / 'static_files'
 # Include ViteJS build files with python manage.py collectstatic
 # STATICFILES_DIRS = [DJANGO_VITE_ASSETS_PATH]
 
-STATICFILES_DIRS = [BASE_DIR / 'static/src']
+STATICFILES_DIRS = [BASE_DIR / 'static']
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
